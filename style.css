@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#1d1d1d;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 400px;
+    width: 40%;
+    float:right;
+    
+}
+.bulb{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(94, 85, 85);
+    border-radius: 50%;
+}
+.halder{
+    width: 90px;
+    height: 70px;
+    background-color: rgb(60, 85, 77);
+    margin-top: -355px;
+    margin-left: -195px;
+    border-radius:  50% 50% 0 0;
+}
+
+.blue{
+    background-color: rgba(42, 42, 199, 0.911);
+    color: #ccc;
+}
+.blue:hover{
+    border: 1px solid #ccc;
+}
+.white:hover{
+    border: 1px solid limegreen;
+    color: rgb(67, 139, 151);
+    font-weight: 900;
+}
+.red{
+    background-color: rgba(228, 4, 4, 0.911);
+    
+}
+.red:hover{
+    border: 1px solid #ccc;
+    color: #ccc;
+}
+.disc{
+    background: linear-gradient(  blue ,white, red);
+}
+.disc:hover{
+    background: linear-gradient( 90deg, blue ,white, red);
+}
+/* ********************************************************** */
+.col{
+    background-color: rgb(0, 26, 255);
+    box-shadow: 0px 20px 100px 0px rgb(0, 4, 255);
+}
+.btn2{
+    background-color: hwb(0 100% 0%);
+    box-shadow: 0px 20px 100px 0px #fff;
+}
+.reds{
+    background-color: rgba(228, 4, 4, 0.911);
+    box-shadow: 0px 20px 100px 0px rgba(175, 71, 71, 0.747);
+}
